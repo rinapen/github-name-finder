@@ -3,6 +3,14 @@ Github上で使用されていないユニークネーム(userId)を検索する
 
 You can find the names that Github users havn't used yet.
 
+## インストール
+
+必要なパッケージをインストールしてください：
+
+```bash
+pip install -r requirements.txt
+```
+
 ## 環境変数
 [.env.example](.env.example)を参考にして.envを作成して下さい。
 
