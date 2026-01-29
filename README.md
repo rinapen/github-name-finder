@@ -1,2 +1,3 @@
 # Github name finder
-🔍 Efficiently hunt for available GitHub usernames.
+Github上で使用されていないユニークネーム(userId)を検索することができます。
+You can find the names that Github users havn't used yet.
