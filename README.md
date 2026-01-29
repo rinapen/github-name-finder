@@ -4,7 +4,7 @@ Github上で使用されていないユニークネーム(userId)を検索する
 You can find the names that Github users havn't used yet.
 
 ## 環境変数
-[.env.example](.env.example)を参考にして*.env*を作成して下さい。
+[.env.example](.env.example)を参考にして.envを作成して下さい。
 
 ```
 NAME_LENGTH= # 検索する名前の長さ 
