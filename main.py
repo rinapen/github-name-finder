@@ -1,11 +1,12 @@
+import os
 import requests
 import random
 import string
+from dotenv import load_dotenv
 
-# 設定パラメータ
-name_length = 6       # ユーザー名の文字数
-target_count = 10     # 見つけたい未使用ユーザー名の個数
-max_attempts = 500    # 最大検索回数
+name_length = int(os.getenv("NAME_LENGTH"))
+target_count = int(os.getenv("TARGET_COUNT"))
+max_attempts = int(os.getenv("MAX_ATTEMPT"))
 
 def generate_username(length):
     return ''.join(random.choices(string.ascii_lowercase + string.digits, k=length))
