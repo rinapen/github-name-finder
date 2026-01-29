@@ -7,6 +7,7 @@ You can find the names that Github users havn't used yet.
 [.env.example](.env.example)を参考にして.envを作成して下さい。
 
 ```
+python
 NAME_LENGTH= # 検索する名前の長さ 
 TARGET_COUNT= # 検索する名前の個数
 MAX_ATTEMPT= # 最大繰り返し回数
